@@ -3,6 +3,7 @@
   "name": "FukAI",
   "version": "0.1",
   "description": "We will get rid of AI slop.",
+  "icons": {"128": "icons/fukai.png"},
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
