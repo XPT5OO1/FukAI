@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "FukAI",
+  "version": "0.1",
+  "description": "We will get rid of AI slop.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
